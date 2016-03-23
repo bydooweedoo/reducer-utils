@@ -52,7 +52,7 @@ export const withInitialCustomEquals = equals => initial => R.unapply(
  *      iteratee(previousState, initialState); //=> initialState
  *      iteratee(previousState, currentState); //=> currentState
  */
-export const withPreviousCustomEquals = equals => initial => R.unapply(
+export const withPreviousCustomEquals = equals => (/* initial */) => R.unapply(
     R.cond([
         [R.both(
             currentIsNotNil,
