@@ -9,7 +9,7 @@
 [npm-badge]: https://img.shields.io/npm/v/reducer-utils.svg?style=flat-square
 [npm]: https://www.npmjs.org/package/reducer-utils
 
-`reducer-utils` is a set of utilities for redux reducer. Used by `reducer-chain` and `reducer-pipe` packages.
+`reducer-utils` is a set of utilities for redux reducer. Used by [`reducer-chain`](https://www.npmjs.org/package/reducer-chain) and [`reducer-pipe`](https://www.npmjs.org/package/reducer-pipe) packages.
 
 ## Getting started
 
